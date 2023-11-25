@@ -8,8 +8,30 @@
     <link rel="stylesheet" href="tailwind.css" />
   </head>
   <body class="bg-gray-800">
-    <div id="Hero" class="bg-gray-700">
-        <h1 class="text-white">BaimaX</h1>
+    <div id="Hero" class="bg-gray-700 m-8 p-12 rounded-3xl">
+        <div class="p-12 m-8">
+            <h1 class="pb-4 flex items-center justify-center text-white text-4xl">BaimaX</h1>
+            <p class="flex items-center justify-center text-white text-lg">Elevate your studying experience</p>
+        </div>
+    </div>
+    <div class="grid grid-cols-2">
+        <div id="Choice" class="bg-gray-700 m-8 p-12 rounded-3xl grid grid-rows-2 items-center justify-center">
+            <label class="m-2 text-white">
+                <input class="mx-2" type="checkbox"/>
+                Physical health diagnosis
+            </label>
+            <label class="m-2 text-white">
+                <input class="mx-2" type="checkbox"/>
+                Mental health diagnosis
+            </label>
+        </div>
+        <div id="Choice" class="bg-gray-700 m-8 p-12 rounded-3xl grid">
+            <input class="text-white bg-gray-700 my-2" placeholder="Phone number"/>
+            <hr class="underline decoration-white"></hr>
+            <input class="text-white bg-gray-700 my-2" placeholder="Name"/>
+            <hr class="underline decoration-white"></hr>
+            <button class="rounded-lg flex items-center justify-center text-white bg-gray-400 my-4 p-4">Sign Up</button>     
+        </div>
     </div>
   </body>
 </html>
